@@ -16,7 +16,8 @@ struct Login: View {
             Image("Logo")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .padding(.top, 20.0)
+                .padding(.bottom, 20.0)
+                .frame(maxHeight: 300)
             Text("Login").font(.custom("Jomhuria-Regular", size: 60.0))
                 .foregroundColor(Color("Navy"));
             
@@ -35,19 +36,25 @@ struct Login: View {
                     .background(RoundedRectangle(cornerRadius: 15.0)
                         .fill(Color("Pink 3")
                             .opacity(0.5)))
-            }.scrollContentBackground(.hidden).frame(maxHeight: 200.0)
+                    .listRowSeparator(.hidden)
+                
+                // Login & forgot password buttons
+                VStack {
+                    Button {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    } label: {
+                        Text("Login").font(.custom("Jomhuria-Regular", size: 30.0))
+                    }.buttonStyle(MainButton()).frame(maxWidth: .infinity)
+                    
+                    Button {
+                        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                    } label: {
+                        Text("Forgot password").font(.custom("Jomhuria-Regular", size: 30.0))
+                    }.foregroundColor(Color("Navy")).padding(.top, 20).frame(alignment: .center)
+                }
+                
+            }.scrollContentBackground(.hidden)
             
-            // Login & forgot password buttons
-            Button {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-            } label: {
-                Text("Login").font(.custom("Jomhuria-Regular", size: 30.0))
-            }.buttonStyle(MainButton()).frame(maxWidth: .infinity)
-            Button {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-            } label: {
-                Text("Forgot password").font(.custom("Jomhuria-Regular", size: 30.0))
-            }.foregroundColor(Color("Navy")).padding(.top, 20)
         }
         
     }
