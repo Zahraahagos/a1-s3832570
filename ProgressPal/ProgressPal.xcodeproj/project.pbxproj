@@ -10,6 +10,7 @@
 		FA2A5EB02A84717500BEEC1C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A5EAF2A84717500BEEC1C /* Login.swift */; };
 		FA2A5EB32A84734000BEEC1C /* Jomhuria-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA2A5EB22A84734000BEEC1C /* Jomhuria-Regular.ttf */; };
 		FA2A5EBB2A84807F00BEEC1C /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A5EBA2A84807F00BEEC1C /* ButtonStyles.swift */; };
+		FA2A5EBD2A8494F400BEEC1C /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A5EBC2A8494F400BEEC1C /* SignUp.swift */; };
 		FAF62B1D2A846DE4009CFA31 /* ProgressPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF62B1C2A846DE4009CFA31 /* ProgressPalApp.swift */; };
 		FAF62B1F2A846DE4009CFA31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF62B1E2A846DE4009CFA31 /* ContentView.swift */; };
 		FAF62B212A846DE5009CFA31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF62B202A846DE5009CFA31 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		FA2A5EB22A84734000BEEC1C /* Jomhuria-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Jomhuria-Regular.ttf"; path = "../../../../../../../../Downloads/Jomhuria/Jomhuria-Regular.ttf"; sourceTree = "<group>"; };
 		FA2A5EB42A84756400BEEC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FA2A5EBA2A84807F00BEEC1C /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		FA2A5EBC2A8494F400BEEC1C /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		FAF62B192A846DE4009CFA31 /* ProgressPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF62B1C2A846DE4009CFA31 /* ProgressPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPalApp.swift; sourceTree = "<group>"; };
 		FAF62B1E2A846DE4009CFA31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				FA2A5EAF2A84717500BEEC1C /* Login.swift */,
+				FA2A5EBC2A8494F400BEEC1C /* SignUp.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				FA2A5EBB2A84807F00BEEC1C /* ButtonStyles.swift in Sources */,
 				FAF62B1F2A846DE4009CFA31 /* ContentView.swift in Sources */,
 				FAF62B1D2A846DE4009CFA31 /* ProgressPalApp.swift in Sources */,
+				FA2A5EBD2A8494F400BEEC1C /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
